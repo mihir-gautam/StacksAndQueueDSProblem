@@ -12,6 +12,11 @@ namespace StacksAndQueueDSProblem
             stack.Push(30);
             stack.Push(56);
             stack.Display();
+            Console.WriteLine("\n========================================================================");
+            stack.Peak();
+            stack.Pop();
+            stack.IsEmpty();
+            stack.Display();
             Console.ReadKey();
         }
     }
